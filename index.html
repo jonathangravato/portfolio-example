@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;400;700&family=IBM+Plex+Serif:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 
     <title>CSS Grid Example</title>
@@ -25,14 +29,16 @@
     </header>
     <main>
         <section class="hero">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="grid">
                     <div class="item1"></div>
                     <div class="item2"></div>
                     <div class="item3"></div>
                     <div class="item4"></div>
                     <div class="item5"></div>
-                    <div class="item6"></div>
+                    <div class="item6">
+                        <h1>Web Development and Digital Design Portfolio</h1>
+                    </div>
                     <div class="item7"></div>
                 </div>
             </div>
@@ -46,9 +52,12 @@
         </section>
         <section class="content">
             <div class="container">
-                <div class="container__inner">
+                <div class="content-image">
+                    <img src="./images/JONATHAN-3845-1x1.png" alt="Jonathan Gravato">
+                </div>
+                <div class="content-copy">
                     <h1>Hello!</h1>
-                    <p>My name is Jonathan and I am a Web Developer. I work with a variety of Javascript frameworks, object oriented programming (OOP) in php. I am also a UX/UI bootcamp instructor with two cohorts under my belt. I provide web/graphic design, web development, and SEO consulting. You can view some case studies below.</p>
+                    <p>My name is Jonathan Gravato and I am a Web Developer. I work on a variety of Javascript frameworks using the object oriented programming (OOP) method. I am also a UX/UI bootcamp instructor for the University of Toronto. I provide web/graphic design, web development, and SEO consulting. You can view some case studies below.</p>
                 </div>
             </div>
         </section>
@@ -60,7 +69,7 @@
                         <div class="card-image"></div>
                         <div class="card-body">
                             <h4>Trial School</h4>
-                            <p>Custom WordPress theme developed for Trial School, a not-for-profit organization of trial lawyers. The site pulls video content in from Wistia...</p>
+                            <p>Custom WordPress theme developed for Trial School, a not-for-profit organization of trial lawyers...</p>
                             <a class="button" href="#">Read More</a>
                         </div>
                     </div>
@@ -97,5 +106,8 @@
             </ul>
         </div>
     </footer>
+
+    <script src="./js/index.js"></script>
+
 </body>
 </html>

@@ -2,7 +2,7 @@
   "name": "bootstrap",
   "version": "1.0.0",
   "description": "Bringing bootstrap into the project",
-  "main": "index.js",
+  "main": "./js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
