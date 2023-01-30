@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;400;700&family=IBM+Plex+Serif:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 
@@ -31,14 +33,18 @@
         <section class="hero">
             <div class="container-fluid">
                 <div class="grid">
-                    <div class="item1"></div>
-                    <div class="item2"></div>
-                    <div class="item3"></div>
-                    <div class="item4"></div>
-                    <div class="item5"></div>
-                    <div class="item6">
-                        <h1>Web Development and Digital Design Portfolio</h1>
+                    <div class="item1">
+                        <h1>Web Development</h1>
                     </div>
+                    <div class="item2"></div>
+                    <div class="item3">
+                        <h2>Portfolio</h2>
+                    </div>
+                    <div class="item4"></div>
+                    <div class="item5">
+                        <h2> & Digital Design</h2>
+                    </div>
+                    <div class="item6"></div>
                     <div class="item7"></div>
                 </div>
             </div>
@@ -57,14 +63,15 @@
                 </div>
                 <div class="content-copy">
                     <h1>Hello!</h1>
-                    <p>My name is Jonathan Gravato and I am a Web Developer. I work on a variety of Javascript frameworks using the object oriented programming (OOP) method. I am also a UX/UI bootcamp instructor for the University of Toronto. I provide web/graphic design, web development, and SEO consulting. You can view some case studies below.</p>
+                    <p>My name is Jonathan Gravato and I have been a Web Developer for over 15 years. When I say "web developer", I am actually referring to a wide variety of relative hats I have worn for my employers such as content developer, graphic designer, product manager, and web designer/developer just to name a few.</p>
+                    <p>I am also a UX/UI bootcamp instructor for the University of Toronto. Instructing up and coming business professionals and digital content creators is very gratifying, because I always learn something new.</p>
                 </div>
             </div>
         </section>
         <section class="blogroll">
             <div>
                 <h2 class="text-center">Case Studies</h2>
-                <div class="card-container">
+                <div class="card-container"> 
                     <div class="card case1">
                         <div class="card-image"></div>
                         <div class="card-body">
@@ -73,6 +80,7 @@
                             <a class="button" href="#">Read More</a>
                         </div>
                     </div>
+
                     <div class="card case2">
                         <div class="card-image"></div>
                         <div class="card-body">
@@ -81,11 +89,30 @@
                             <a class="button" href="#">Read More</a>
                         </div>
                     </div>
+
                     <div class="card case3">
                         <div class="card-image"></div>
                         <div class="card-body">
                             <h4>Orlando PM Realty</h4>
                             <p>Orlando PM Realty is a custom child theme over a Beans Framework parent theme. We wanted to keep the focus on available properties.</p>
+                            <a class="button" href="#">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="card case4">
+                        <div class="card-image"></div>
+                        <div class="card-body">
+                            <h4>Trial School</h4>
+                            <p>Custom WordPress theme developed for Trial School, a not-for-profit organization of trial lawyers...</p>
+                            <a class="button" href="#">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="card case5">
+                        <div class="card-image"></div>
+                        <div class="card-body">
+                            <h4>Chuback Education</h4>
+                            <p>Chuback Education is the home of the compiled publications of Personal Development and Success Trainer, John A. Chuback M.D.</p>
                             <a class="button" href="#">Read More</a>
                         </div>
                     </div>
@@ -106,8 +133,24 @@
             </ul>
         </div>
     </footer>
-
+    <!-- <script src="./node_modules/jquery/dist/jquery.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
+    <script>
+        //  Initialize
+        var element = document.getElementById('mySwipe');
+        window.mySwipe = new(element, {
+            startSlide: 0,
+            auto: 3000,
+            draggable: false,
+            autoRestart: false,
+            continuous: true,
+            disableScroll: true,
+            stopPropagation: true,
+            callback: function(index, element) {},
+            transitionEnd: function(index, element) {}
+        });
+    </script>
 
 </body>
 </html>
