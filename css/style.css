@@ -236,6 +236,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #efefef;
 }
 .card-container {
     position:relative;
@@ -328,9 +329,10 @@ main {
 footer {
     display:  flex;
     justify-content:  center;
+    min-height: 100px;
 }
 .footer-social {
-    margin-top: -30px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 footer .footer-social a {
@@ -352,6 +354,9 @@ footer .footer-social ul {
 footer .footer-social ul li {
     display: inline-block;
     margin-left: 15px;
+}
+.footer-message {
+    margin-top: 40px;
 }
 
 /* Responsive */
