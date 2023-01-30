@@ -29,6 +29,9 @@ p, a {
     font-size: 1.5rem;
     line-height: 38px;
 }
+p {
+    margin-bottom: 2rem !important;
+}
 .blogroll h2 {
     font-size: 3rem;
     margin-bottom: 50px;
@@ -304,7 +307,7 @@ main {
     min-width: 400px;
     width: 100%;
     min-height: 300px;
-    background-image: url('../images/orlando-pm-realty.jpg');
+    background-image: url('../images/bspsigns.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -314,17 +317,7 @@ main {
     min-width: 400px;
     width: 100%;
     min-height: 300px;
-    background-image: url('../images/orlando-pm-realty.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.case6 .card-image {
-    min-width: 400px;
-    width: 100%;
-    min-height: 300px;
-    background-image: url('../images/orlando-pm-realty.jpg');
+    background-image: url('../images/touchstone-closing.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
