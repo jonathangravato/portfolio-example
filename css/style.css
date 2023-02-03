@@ -373,6 +373,11 @@ footer .footer-social ul li {
     display: inline-block;
     margin-left: 15px;
 }
+footer .footer-social svg {
+    font-size: 40px;
+    margin-top: 15px;
+    color: #D6852E;
+}
 .footer-message {
     margin-top: 45px;
 }
