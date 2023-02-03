@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'IBM Plex Serif', serif;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 60px;
 }
 h2 {
     font-size: 35px;
@@ -32,17 +32,16 @@ p {
     margin-bottom: 2rem !important;
 }
 .blogroll h2 {
-    font-size: 3rem;
     margin-bottom: 50px;
 }
 .card .card-body p, .card .card-body a {
-    font-size: 1.2rem;
+    font-size: 16px;
     line-height: 25px;
 }
 
 .item1 h1 {
     color: #eee;
-    font-size: 4rem;
+    font-size: 90px;
 }
 
 .item3 h2 {
@@ -50,7 +49,7 @@ p {
 }
 
 .item3 h2, .item5 h2 {
-    font-size: 4rem;
+    font-size: 90px;
 }
 
 /* Content */
@@ -76,7 +75,7 @@ header .logo {
     top: 10px;
     left: 20px;
     width: 200px;
-    font-size: 1.5rem;
+    font-size: 25px;
 }
 header nav ul {
     padding-left: 0;
@@ -93,7 +92,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #333;
-    font-size: 1.2rem;
+    font-size: 18px;
 }
 
 /* Hero */
@@ -239,7 +238,7 @@ main {
 .content p {
     max-width: 700px;
     margin:0 auto;
-    font-size: 1.4rem;
+    font-size: 20px;
 }
 
 /* Case Studies */
