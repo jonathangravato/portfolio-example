@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Encode Sans Condensed', sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'IBM Plex Serif', serif;
@@ -36,12 +36,8 @@ p {
     margin-bottom: 50px;
 }
 .card .card-body p, .card .card-body a {
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     line-height: 25px;
-}
-
-.hero h1 {
-    font-size: 65px;
 }
 
 .item1 h1 {
@@ -62,9 +58,6 @@ p {
     background: rgb(51,51,51);
     background: linear-gradient(0deg, rgba(51,51,51,0.15) 0%, rgba(255,255,255,1) 100%);
 }
-.content-copy p {
-    font-size: 1rem;
-}
 
 /* Header */
 
@@ -83,7 +76,7 @@ header .logo {
     top: 10px;
     left: 20px;
     width: 200px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 header nav ul {
     padding-left: 0;
@@ -100,7 +93,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #333;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 /* Hero */
@@ -111,9 +104,19 @@ header nav ul li a {
     overflow: hidden;
 }
 
+/* Content */
+
 .content-image img {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+}
+.content-copy h2 {
+    width: 100%;
+    max-width: 700px;
+}
+.skills {
+    width:  100%;
+    max-width: 700px;
 }
 
 /* Scroll Button */
@@ -236,6 +239,7 @@ main {
 .content p {
     max-width: 700px;
     margin:0 auto;
+    font-size: 1.4rem;
 }
 
 /* Case Studies */
@@ -270,6 +274,7 @@ main {
     width: 343px !important;
     height: 550px;
     margin-right: 25px;
+    margin-left: -9px;
     box-shadow: 0 15px 20px rgba(0,0,0,.15);
 }
 .card-body {
@@ -370,7 +375,7 @@ footer .footer-social ul li {
     margin-left: 15px;
 }
 .footer-message {
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 /* Responsive */
@@ -449,13 +454,14 @@ footer .footer-social ul li {
     }
 }
 
-@media screen and (max-width: 767px) {
-    .item3 h2 {
-        display: none;
-    }
-}
+/* @media screen and (max-width: 767px) {
+    
+} */
 
 @media screen and (max-width: 500px) {
+    .hero {
+        min-height: 300px;
+    }
     .item1 h1, .item3 h2, .item5 h2 {
         font-size: 1.5rem !important;
         font-weight: 700;
